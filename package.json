@@ -1,0 +1,8 @@
+{
+  "name": "mernheroku",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mras2303/mernheroku",
+  "author": "mras2303 <marek.kowalonek@gmail.com>",
+  "license": "MIT"
+}
