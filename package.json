@@ -4,5 +4,22 @@
   "main": "index.js",
   "repository": "https://github.com/mras2303/mernheroku",
   "author": "mras2303 <marek.kowalonek@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "heroku-postbuild": "cd client && yarn && yarn build",
+    "client": "cd client && yarn start",
+    "server": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
 }
